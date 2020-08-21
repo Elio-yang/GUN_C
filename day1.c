@@ -6,7 +6,7 @@
                 z;})
 #define max(a, b) ((a)>(b)?(a):(b))
 #define max_safe(a, b) ({int _a=(a),_b=(b);_a>_b?_a:_b;})
-#define SEARCH(value,array,target, r_l, c_l)                 \
+#define SEARCH(value,array,target, r_l, c_l)            \
 do{                                                     \
 __label__ found;                                        \
 typeof(target) _SEARCH_target=(target);                 \
